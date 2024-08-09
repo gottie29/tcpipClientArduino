@@ -2,9 +2,11 @@
 #include <ArduinoJson.h>
 
 // WiFiClient client;
-
+// Your WLAN settings
 const char* ssid = "your ssid";
-const char* password = "yout password";
+const char* password = "your password";
+
+// Server IP of the main programm
 const char* host = "server ip";
 uint16_t port = 4681; // server port
 
